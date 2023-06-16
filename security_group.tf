@@ -6,21 +6,21 @@ resource "aws_security_group" "Nginx_security" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["92.253.215.244/32"]
+    cidr_blocks = ["Your cidr blocks"]
   }
 
   ingress {
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
-    cidr_blocks = ["92.253.215.244/32"]
+    cidr_blocks = ["Your cidr blocks"]
   }
 
   ingress {
     from_port   = 443
     to_port     = 443
     protocol    = "tcp"
-    cidr_blocks = ["92.253.215.244/32"]
+    cidr_blocks = ["Your cidr blocks"]
   }
 
   egress {
