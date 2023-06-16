@@ -17,7 +17,7 @@ Tested on:
 
 - [IAM](#iam) 
 - [EC2](#ec2) 
-- [Hardening](#security-group) 
+- [Security Group](#security-group) 
 - [Result](#result)
 
 # How to start?
